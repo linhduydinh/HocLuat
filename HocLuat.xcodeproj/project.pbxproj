@@ -20,6 +20,9 @@
 		E60F3AA5225AEC2000070AA6 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3AA4225AEC2000070AA6 /* Protocols.swift */; };
 		E60F3AA7225AF58600070AA6 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3AA6225AF58600070AA6 /* MenuOptionCell.swift */; };
 		E60F3AA9225AFC5700070AA6 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3AA8225AFC5700070AA6 /* MenuOption.swift */; };
+		E6E0C720225C85D200B48DC4 /* HocLuatCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C71F225C85D200B48DC4 /* HocLuatCategoryController.swift */; };
+		E6E0C722225C8E6200B48DC4 /* HocLuatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C721225C8E6200B48DC4 /* HocLuatOption.swift */; };
+		E6E0C724225C8EB500B48DC4 /* HocLuatOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C723225C8EB500B48DC4 /* HocLuatOptionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		E60F3AA4225AEC2000070AA6 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		E60F3AA6225AF58600070AA6 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
 		E60F3AA8225AFC5700070AA6 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		E6E0C71F225C85D200B48DC4 /* HocLuatCategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HocLuatCategoryController.swift; sourceTree = "<group>"; };
+		E6E0C721225C8E6200B48DC4 /* HocLuatOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HocLuatOption.swift; sourceTree = "<group>"; };
+		E6E0C723225C8EB500B48DC4 /* HocLuatOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HocLuatOptionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,7 @@
 		E60F3A9B225A21D400070AA6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E6E0C721225C8E6200B48DC4 /* HocLuatOption.swift */,
 				E60F3AA8225AFC5700070AA6 /* MenuOption.swift */,
 			);
 			path = Model;
@@ -160,6 +167,7 @@
 		E60F3A9C225A21DB00070AA6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E6E0C723225C8EB500B48DC4 /* HocLuatOptionCell.swift */,
 				E60F3AA6225AF58600070AA6 /* MenuOptionCell.swift */,
 			);
 			path = View;
@@ -171,6 +179,7 @@
 				E60F3A9E225A4ECB00070AA6 /* ContainerController.swift */,
 				E60F3AA0225A4ED700070AA6 /* HomeController.swift */,
 				E60F3AA2225A4EE500070AA6 /* MenuController.swift */,
+				E6E0C71F225C85D200B48DC4 /* HocLuatCategoryController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -306,14 +315,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E0C720225C85D200B48DC4 /* HocLuatCategoryController.swift in Sources */,
 				E60F3AA7225AF58600070AA6 /* MenuOptionCell.swift in Sources */,
 				E60F3AA9225AFC5700070AA6 /* MenuOption.swift in Sources */,
+				E6E0C724225C8EB500B48DC4 /* HocLuatOptionCell.swift in Sources */,
 				E60F3A72225A217200070AA6 /* HocLuat.xcdatamodeld in Sources */,
 				E60F3A6A225A217200070AA6 /* AppDelegate.swift in Sources */,
 				E60F3A9F225A4ECB00070AA6 /* ContainerController.swift in Sources */,
 				E60F3AA5225AEC2000070AA6 /* Protocols.swift in Sources */,
 				E60F3AA3225A4EE500070AA6 /* MenuController.swift in Sources */,
 				E60F3AA1225A4ED700070AA6 /* HomeController.swift in Sources */,
+				E6E0C722225C8E6200B48DC4 /* HocLuatOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

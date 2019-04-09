@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MenuOptionCell: UITableViewCell {
+class HocLuatOptionCell: UITableViewCell {
 
     // MARK: - Properties
     let iconImageView: UIImageView = {
