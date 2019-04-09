@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E60F3A6A225A217200070AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3A69225A217200070AA6 /* AppDelegate.swift */; };
-		E60F3A6C225A217200070AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3A6B225A217200070AA6 /* ViewController.swift */; };
 		E60F3A6F225A217200070AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60F3A6D225A217200070AA6 /* Main.storyboard */; };
 		E60F3A72225A217200070AA6 /* HocLuat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E60F3A70225A217200070AA6 /* HocLuat.xcdatamodeld */; };
 		E60F3A74225A217600070AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60F3A73225A217600070AA6 /* Assets.xcassets */; };
 		E60F3A77225A217600070AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60F3A75225A217600070AA6 /* LaunchScreen.storyboard */; };
 		E60F3A82225A217600070AA6 /* HocLuatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3A81225A217600070AA6 /* HocLuatTests.swift */; };
 		E60F3A8D225A217600070AA6 /* HocLuatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3A8C225A217600070AA6 /* HocLuatUITests.swift */; };
+		E60F3A9F225A4ECB00070AA6 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3A9E225A4ECB00070AA6 /* ContainerController.swift */; };
+		E60F3AA1225A4ED700070AA6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3AA0225A4ED700070AA6 /* HomeController.swift */; };
+		E60F3AA3225A4EE500070AA6 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3AA2225A4EE500070AA6 /* MenuController.swift */; };
+		E60F3AA5225AEC2000070AA6 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3AA4225AEC2000070AA6 /* Protocols.swift */; };
+		E60F3AA7225AF58600070AA6 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3AA6225AF58600070AA6 /* MenuOptionCell.swift */; };
+		E60F3AA9225AFC5700070AA6 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3AA8225AFC5700070AA6 /* MenuOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		E60F3A66225A217200070AA6 /* HocLuat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HocLuat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60F3A69225A217200070AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E60F3A6B225A217200070AA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E60F3A6E225A217200070AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E60F3A71225A217200070AA6 /* HocLuat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HocLuat.xcdatamodel; sourceTree = "<group>"; };
 		E60F3A73225A217600070AA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		E60F3A88225A217600070AA6 /* HocLuatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HocLuatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60F3A8C225A217600070AA6 /* HocLuatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HocLuatUITests.swift; sourceTree = "<group>"; };
 		E60F3A8E225A217600070AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60F3A9E225A4ECB00070AA6 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		E60F3AA0225A4ED700070AA6 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E60F3AA2225A4EE500070AA6 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		E60F3AA4225AEC2000070AA6 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		E60F3AA6225AF58600070AA6 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		E60F3AA8225AFC5700070AA6 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +109,11 @@
 		E60F3A68225A217200070AA6 /* HocLuat */ = {
 			isa = PBXGroup;
 			children = (
+				E60F3A9D225A21E100070AA6 /* Controller */,
+				E60F3A9C225A21DB00070AA6 /* View */,
+				E60F3A9B225A21D400070AA6 /* Model */,
+				E60F3A9A225A21BF00070AA6 /* Utils */,
 				E60F3A69225A217200070AA6 /* AppDelegate.swift */,
-				E60F3A6B225A217200070AA6 /* ViewController.swift */,
 				E60F3A6D225A217200070AA6 /* Main.storyboard */,
 				E60F3A73225A217600070AA6 /* Assets.xcassets */,
 				E60F3A75225A217600070AA6 /* LaunchScreen.storyboard */,
@@ -126,6 +139,40 @@
 				E60F3A8E225A217600070AA6 /* Info.plist */,
 			);
 			path = HocLuatUITests;
+			sourceTree = "<group>";
+		};
+		E60F3A9A225A21BF00070AA6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E60F3AA4225AEC2000070AA6 /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E60F3A9B225A21D400070AA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E60F3AA8225AFC5700070AA6 /* MenuOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E60F3A9C225A21DB00070AA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E60F3AA6225AF58600070AA6 /* MenuOptionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E60F3A9D225A21E100070AA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E60F3A9E225A4ECB00070AA6 /* ContainerController.swift */,
+				E60F3AA0225A4ED700070AA6 /* HomeController.swift */,
+				E60F3AA2225A4EE500070AA6 /* MenuController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E60F3AA7225AF58600070AA6 /* MenuOptionCell.swift in Sources */,
+				E60F3AA9225AFC5700070AA6 /* MenuOption.swift in Sources */,
 				E60F3A72225A217200070AA6 /* HocLuat.xcdatamodeld in Sources */,
-				E60F3A6C225A217200070AA6 /* ViewController.swift in Sources */,
 				E60F3A6A225A217200070AA6 /* AppDelegate.swift in Sources */,
+				E60F3A9F225A4ECB00070AA6 /* ContainerController.swift in Sources */,
+				E60F3AA5225AEC2000070AA6 /* Protocols.swift in Sources */,
+				E60F3AA3225A4EE500070AA6 /* MenuController.swift in Sources */,
+				E60F3AA1225A4ED700070AA6 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
