@@ -79,7 +79,8 @@ class ContainerController: UIViewController {
     func didSelectMenuOption(menuOption: MenuOption) {
         switch menuOption {
         case .HocLuat:
-            print("Học Luật")
+            let controller = HocLuatCategoryController()
+            present(UINavigationController(rootViewController: controller), animated: true, completion: nil)
         case .ThiThu:
             print("Thi Thử")
         case .MeoThi:
