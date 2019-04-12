@@ -23,6 +23,10 @@
 		E6E0C720225C85D200B48DC4 /* HocLuatCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C71F225C85D200B48DC4 /* HocLuatCategoryController.swift */; };
 		E6E0C722225C8E6200B48DC4 /* HocLuatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C721225C8E6200B48DC4 /* HocLuatOption.swift */; };
 		E6E0C724225C8EB500B48DC4 /* HocLuatOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C723225C8EB500B48DC4 /* HocLuatOptionCell.swift */; };
+		E6E0C726225CF64000B48DC4 /* HocLuatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C725225CF64000B48DC4 /* HocLuatController.swift */; };
+		E6E0C728225D8C6600B48DC4 /* UnSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C727225D8C6600B48DC4 /* UnSafeArea.swift */; };
+		E6E0C72C225F2E6600B48DC4 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E0C72B225F2E6600B48DC4 /* Slide.xib */; };
+		E6E0C72E225F2E9400B48DC4 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C72D225F2E9400B48DC4 /* Slide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		E6E0C71F225C85D200B48DC4 /* HocLuatCategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HocLuatCategoryController.swift; sourceTree = "<group>"; };
 		E6E0C721225C8E6200B48DC4 /* HocLuatOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HocLuatOption.swift; sourceTree = "<group>"; };
 		E6E0C723225C8EB500B48DC4 /* HocLuatOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HocLuatOptionCell.swift; sourceTree = "<group>"; };
+		E6E0C725225CF64000B48DC4 /* HocLuatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HocLuatController.swift; sourceTree = "<group>"; };
+		E6E0C727225D8C6600B48DC4 /* UnSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnSafeArea.swift; sourceTree = "<group>"; };
+		E6E0C72B225F2E6600B48DC4 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		E6E0C72D225F2E9400B48DC4 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				E60F3AA4225AEC2000070AA6 /* Protocols.swift */,
+				E6E0C727225D8C6600B48DC4 /* UnSafeArea.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -169,6 +178,8 @@
 			children = (
 				E6E0C723225C8EB500B48DC4 /* HocLuatOptionCell.swift */,
 				E60F3AA6225AF58600070AA6 /* MenuOptionCell.swift */,
+				E6E0C72B225F2E6600B48DC4 /* Slide.xib */,
+				E6E0C72D225F2E9400B48DC4 /* Slide.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +191,7 @@
 				E60F3AA0225A4ED700070AA6 /* HomeController.swift */,
 				E60F3AA2225A4EE500070AA6 /* MenuController.swift */,
 				E6E0C71F225C85D200B48DC4 /* HocLuatCategoryController.swift */,
+				E6E0C725225CF64000B48DC4 /* HocLuatController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -291,6 +303,7 @@
 				E60F3A77225A217600070AA6 /* LaunchScreen.storyboard in Resources */,
 				E60F3A74225A217600070AA6 /* Assets.xcassets in Resources */,
 				E60F3A6F225A217200070AA6 /* Main.storyboard in Resources */,
+				E6E0C72C225F2E6600B48DC4 /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,10 +333,13 @@
 				E60F3AA9225AFC5700070AA6 /* MenuOption.swift in Sources */,
 				E6E0C724225C8EB500B48DC4 /* HocLuatOptionCell.swift in Sources */,
 				E60F3A72225A217200070AA6 /* HocLuat.xcdatamodeld in Sources */,
+				E6E0C728225D8C6600B48DC4 /* UnSafeArea.swift in Sources */,
 				E60F3A6A225A217200070AA6 /* AppDelegate.swift in Sources */,
+				E6E0C726225CF64000B48DC4 /* HocLuatController.swift in Sources */,
 				E60F3A9F225A4ECB00070AA6 /* ContainerController.swift in Sources */,
 				E60F3AA5225AEC2000070AA6 /* Protocols.swift in Sources */,
 				E60F3AA3225A4EE500070AA6 /* MenuController.swift in Sources */,
+				E6E0C72E225F2E9400B48DC4 /* Slide.swift in Sources */,
 				E60F3AA1225A4ED700070AA6 /* HomeController.swift in Sources */,
 				E6E0C722225C8E6200B48DC4 /* HocLuatOption.swift in Sources */,
 			);

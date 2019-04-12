@@ -75,6 +75,8 @@ extension HocLuatCategoryController: UITableViewDelegate, UITableViewDataSource 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath) as! HocLuatOptionCell
         print(cell.descLabel)
+        let controller = HocLuatController()
+        present(UINavigationController(rootViewController: controller), animated: true, completion: nil)
     }
     
 }
